@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
@@ -15,38 +15,88 @@
 	<header>
 	<div>
 		<div class="container header-container"></div>
-	</div>
+		<div class="header-inner">
+			<h1 class="header-logo"><a href="index.html">
+				<img src="images/logo.png" srcset="images/logo.png 1x,
+				images/logo@2x.png 2x" alt="Codera">
+			</a></h1>
+			<button class="menu-btn" id="mobile-menu"></button>
+		</div>
+	</div><!--header-container -->
 </header>
     <!-- ========== /header ========== -->
     <!-- ==========   nav    ========== -->
 <nav>
 	<div class="container nav-container">
-	<ul>
-		<li>
-			<a href="index.html">ホーム</a>
-			<a href="course/index.html">k−す紹介</a>
-			<a href="qanda/index.html">よくある質問</a>
-			<a href="contact/index.html">お申し込み</a>
-		</li>
+	<ul class="navbar">
+		<li><a href="index.html">ホーム</a></li>
+		<li><a href="course/index.html">コース紹介</a></li>
+		<li><a href="qanda/index.html">よくある質問</a></li>
+		<li><a href="contact/index.html">お申し込み</a></li>
 	</ul>
 	</div>
 </nav>
+<!-- ==============/nav ========== -->
 
+<!-- ============= keyvisual ===========-->
+<div class="home-keyvisual">
+	<img src="images/keyvisual.jpg" alt="Codera" class="img-responsive">
+</div><!-- ========= keyvisual ======= -->
+<!-- ============== /keyvisual =========== -->
 
 <section class="main">
 	<div class="container">
 		<main>
-			
+			<p class="home-maincopy">子供から大人まで, <br>
+			<spna class="home-color1">プ</spna>
+			<spna class="home-color2">ロ</spna>
+			<spna class="home-color3">グ</spna>
+			<spna class="home-color4">ラ</spna>
+			<spna class="home-color1">ミ</spna>
+			<spna class="home-color2">ニ</spna>
+			<spna class="home-color3">グ</spna>
+			を学ぶなら,<strong>Codera</strong>。</p>
+			<h2 class="home-2">お知らせ</h2>
+			<div class="home-news">
+				<ul>
+					<li>来月から、新コースを続々開講します</li>
+					<li>Web最新動向トークセッション、参加者受付開始</li>
+					<li>今すぐ始めるキャンペーンで入会費が50％OFF!</li>
+				</ul>
+			</div><!-- ======== /.home-news ======= -->
+
+			<h2 class="home-h2">コース紹介</h2>
+			<ul class="home-course">
+				<l1><a href="html.html"><figure><img src="images/course1.png" alt="HTML&CSS基礎">
+					<figcaption>HTML&amp;CSS基礎</figcaption></figure></a>
+				</l1>
+				<l1><a href="#"><figure><img src="images/course2.png" alt="WordPressサイト構築">
+					<figcaption>WordPressサイト構築</figcaption></figure></a>
+				</l1>
+				<l1><a href="#"><figure><img src="images/course3.png" alt="ythonでデータ解析">
+					<figcaption>Pythonでデータ解析</figcaption></figure></a>
+				</l1>
+				<l1><a href="#"><figure><img src="images/course4.png" alt="Rubyスクレイピング">
+					<figcaption>Rubyスクレイピング</figcaption></figure></a>
+				</l1>
+			</ul>
 		</main>
-	</div>
+	</div><!-- ===== /.container ======= -->
 </section>
 <!-- ========== /main ========== -->
 
 <!-- ==========footer ========== -->
 <footer>
 	<div class="container footer-container">
-		
-	</div>
+		<ul class="footer-nav">
+				<li><a href="course/index.html">コース紹介</a></li>
+				<li><a href="qanda/index.html">よくある質問</a></li>
+				<li><a href="contact/index.html">お申し込み</a></li>
+		</ul><!--/.footer-nav -->
+		<p class="footer-copyright">
+			&copy; codera
+		</p><!-- /.footer-copyright-->
+	</div><!--footer-container -->
 </footer>
 <!-- ========== /footer ========== -->
 <script src="script/script.js"></script>
